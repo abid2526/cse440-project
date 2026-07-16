@@ -109,3 +109,7 @@ The Factor Graph evaluates the player's current state and selects one of these e
 ## Future Implementation
 
 During the implementation phase, the Factor Graph will be developed using the `pgmpy` library. It will be connected to the game logic so that every important decision is made based on the player's current state rather than a fixed storyline.
+
+## Factor Graph Diagram
+
+![Factor Graph](../diagrams/factor_graph.png)
