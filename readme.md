@@ -1,29 +1,89 @@
 # Adventure Quest Using Factor Graphs
 
-## Course
+## CSE440 - Artificial Intelligence
 
-CSE440 - Artificial Intelligence
+### Project Overview
 
-## Project Overview
+Adventure Quest is a simple adventure game that demonstrates AI-based decision making using Factor Graphs. Instead of following a fixed storyline, the game changes its events based on the player's current state and previous decisions. The main goal of this project is to apply an Artificial Intelligence concept in an interactive and easy-to-understand game.
 
-Adventure Quest is a simple adventure game that demonstrates AI-based decision making using Factor Graphs. Unlike traditional adventure games with fixed storylines, the game dynamically selects events based on the player's current state and previous decisions.
+---
 
-The goal of this project is to apply an Artificial Intelligence concept in a practical and interactive way while keeping the gameplay simple and easy to understand.
+## Objectives
 
-## Features
+- Develop a simple adventure game in Python.
+- Apply Factor Graphs for decision-making.
+- Create a dynamic storyline based on player choices.
+- Demonstrate an AI concept through game development.
+
+---
+
+## Game Overview
+
+The player takes the role of an adventurer searching for the Ancient Crystal. During the journey, the player will travel through different locations, interact with NPCs, collect items, and face different challenges. The player's decisions and current state will influence which events occur next.
+
+---
+
+## Planned Features
 
 - Interactive adventure game
-- Dynamic story progression
+- Three game locations
+- Multiple story events
 - AI-based event selection using Factor Graphs
 - Multiple possible endings
 - Simple graphical user interface
+
+---
 
 ## Technologies
 
 - Python
 - Tkinter
 - pgmpy
+- NetworkX
+- Matplotlib
 - Git & GitHub
+
+---
+
+## Project Structure
+
+```
+cse440-project/
+│
+├── docs/
+├── src/
+├── assets/
+├── diagrams/
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## Current Progress
+
+Completed:
+
+- Project idea finalized
+- Story designed
+- Game locations planned
+- Player variables identified
+- Initial Factor Graph designed
+- GitHub repository created
+
+In Progress:
+
+- Project documentation
+
+Upcoming:
+
+- Build game logic
+- Implement Factor Graph
+- Develop graphical interface
+- Testing and debugging
+
+---
 
 ## Team Members
 
@@ -32,15 +92,10 @@ The goal of this project is to apply an Artificial Intelligence concept in a pra
 - Sabbir Ahmed
 - Sayed Rimon Ahamed
 
+---
+
 ## Project Status
 
-Project Planning Completed
+Planning Phase Completed
 
-Current Progress:
-
-- Story designed
-- Game world planned
-- Player variables finalized
-- Initial factor graph designed
-
-Implementation will begin next.
+Implementation will begin in the next phase.
