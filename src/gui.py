@@ -812,7 +812,7 @@ class AdventureGUI:
             self.scene_label.image = photo
 
     # =========================================================
-    # UPDATE SCREEN
+    # UPDATE_SCREEN
     # =========================================================
 
     def update_interface(self):
